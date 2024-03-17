@@ -1,0 +1,53 @@
+1] Styled Component Crash Course
+---------------------------------
+
+>> Install Styled Components
+>> npm i styled-components
+>> created a global style 
+>> import { createGlobalStyle } from "styled-components";
+>> Theme Provider in Styled Component
+>> CSS function in styled Component
+>> `as` prop in styled component
+>> set the default type
+>> Learned How we can define the stylings in an object and we use will use them conditionally  refer "Button.jsx"
+
+___________________________________________
+
+2] Router Configuration
+------------------------
+>> How to congigure the routes
+>> 'index' route , how to define it and <Navigate />
+>> How to create a layout route and what is the 'outlet'
+>> why to use 'NavLink' instead of "Link"
+>> How to style "NavLink" > const StyledNavLink = styled(NavLink)`
+
+3] React Icons
+---------------
+>> HOW TO Install
+>> How to use them.
+
+4] Crash course on Supabase
+----------------------------
+>> How to create a tables
+>> How to link the tables [Relational Data]
+>> How to install Supabase
+>> How to changes the row level policy
+>> How to access the data from supabse
+
+___________________________________________
+
+5] React Query
+-------------------------------------------
+>> Installation
+>> How to Configure the react query
+>> installtion of React Query dev Tools 
+>> How to configure dev tool
+>> Concepts which need to Learn
+      >> `useQuery` and what properties does it hold.
+             >> queryKey
+             >> queryFn
+      >> `useQueryClient`
+      >> `useMutation`
+            >> mutationFn:
+            >> onSuccess
+            >> onErrr

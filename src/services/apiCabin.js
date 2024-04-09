@@ -8,7 +8,6 @@ export default async function getCabins() {
     console.error(error);
     throw new Error("Cabins could not be loaded");
   }
-
   return data;
 }
 
@@ -21,8 +20,6 @@ export async function deleteCabin(id) {
   }
   return data;
 }
-
-// create a cabin
 
 export async function createEditCabin(newCabin, id) {
   const hasImagePath = newCabin.image?.startsWith?.(supabaseUrl);
@@ -66,6 +63,5 @@ export async function createEditCabin(newCabin, id) {
       "Cabin image could not be uploaded and the cabin was not created"
     );
   }
-
   return data;
 }

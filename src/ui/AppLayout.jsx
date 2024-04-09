@@ -13,6 +13,13 @@ const StyledAppLayout = styled.div`
 const Main = styled.main`
   background-color: var(--color-grey-50);
   padding: 4rem 4.8rem 6.4rem;
+  overflow-y: scroll;
+  /* Hide scrollbar in WebKit browsers */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer 10+ */
+  &::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome and Safari */
+  }
 `;
 
 const Container = styled.div`
